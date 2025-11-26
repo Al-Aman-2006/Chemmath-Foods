@@ -1,0 +1,114 @@
+ <div class="container my-5" id="Order">
+        <h1 class="text-center mb-5">Order Specials..!</h1>
+        
+        <div class="row g-4">
+     <div class="list">
+         
+            <div class="col-sm-6 col-lg-3 ">
+                <div class="card text-center   h-100">
+                    <img src="./images/mandi alfaham.jpg" class="card-img-top" alt="Alfaham Mandi">
+                    <div class="card-body">
+                        <h5 class="card-title">Alfaham Mandi</h5>
+                        <p class="card-text">Chemmath Foods special recipe..!</p>
+                        <h6 class="text-danger">₹200</h6>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-center   h-100">
+                    <img src="./images/dosa.jpg" class="card-img-top" alt="Dosa">
+                    <div class="card-body">
+                        <h5 class="card-title">Dosa</h5>
+                        <p class="card-text">World famous South Indian dish.</p>
+                        <h6 class="text-danger">₹50</h6>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-center  h-100">
+                    <img src="./images/shawarma.jpg" class="card-img-top" alt="Shawarma">
+                    <div class="card-body">
+                        <h5 class="card-title">Shawarma</h5>
+                        <p class="card-text">Marinated roasted meat wrap.</p>
+                        <h6 class="text-danger">₹150</h6>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-center  h-100">
+                    <img src="./images/biriyani.jpg" class="card-img-top" alt="Biryani">
+                    <div class="card-body">
+                        <h5 class="card-title">Biryani</h5>
+                        <p class="card-text">Special Chemmath biryani recipe.</p>
+                        <h6 class="text-danger">₹150</h6>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </div> 
+
+    <div class="container my-5" id="Order">
+        
+        <div class="row g-4">
+            <!-- Example of one card -->
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-center  h-100">
+                    <img src="./images/idli.jpg" class="card-img-top" alt="Alfaham Mandi">
+                    <div class="card-body">
+                        <h5 class="card-title">Idli</h5>
+                        <p class="card-text">Idli is healthy because it is steamed Idli is easy to digest, so anyone can eat it.Idli gives good energy because it is made from rice and dal.</p>
+                        <h6 class="text-danger">₹60</h6>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copy same structure for all your food cards -->
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-center  h-100">
+                    <img src="./images/veg biriyani.jpg" class="card-img-top" alt="Dosa">
+                    <div class="card-body">
+                        <h5 class="card-title">Veg biriyani</h5>
+                        <p class="card-text">It is a flavoured rice dish cooked with vegetables like carrot, beans, peas, potato, cauliflower, etc.It uses aromatic spices.</p>
+                        <h6 class="text-danger">₹150</h6>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3 ">
+                <div class="card text-center  h-100">
+                    <img src="./images/orange chicken.jpg" class="card-img-top" alt="Shawarma">
+                    <div class="card-body">
+                        <h5 class="card-title">Orange Chicken</h5>
+                        <p class="card-text">a delicious Chinese-style dish made with crispy fried chicken pieces coated in a sweet and tangy orange-flavored sauce..!
+
+.</p>
+                        <h6 class="text-danger">₹150</h6>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+                <div class="card text-center  h-100">
+                    <img src="./images/chinese noodels.jpg" class="card-img-top" alt="Biryani">
+                    <div class="card-body">
+                        <h5 class="card-title">Chinese Noodels</h5>
+                        <p class="card-text">a popular and tasty dish made with boiled noodles, colorful vegetables, and flavorful sauces. It’s quick to make and loved by people of all ages!</p>
+                        <h6 class="text-danger">₹150</h6>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

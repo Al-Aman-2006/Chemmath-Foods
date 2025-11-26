@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemmath Foods</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Chemmath Foods</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#carouselExampleCaptions">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#order-2">Orders</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Deals</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Combo Offer</a></li>
+                            <li><a class="dropdown-item" href="#">Weekend Discount</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Special Chefs Pick</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">Location</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+     
+    <div id="carouselExampleCaptions" class="carousel slide mt-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/pissa.png" width="100%" class="d-block w-100" alt="Non Veg Foods">
+
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/burger.png" class="d-block w-100" alt="Veg Foods">
+
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/green.png" class="d-block w-100" alt="Chinese Foods">
+
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- Order Section -->
+    <h1 id="order-2" class="caption text-center text-light bg-dark my-3">Oder Now..!</h1>
+    <div id="order-1" class="container">
+
+
+
+        <div class="card border-success mb-3" style="max-width: 15rem;">
+            <img src="images/alfaham normal.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+                <h4 class="card-title">Alfaham</h4>
+                <p class="card-text">Alfaham is a popular Arabian-style grilled chicken.
+                    It is cooked on charcoal or a grill, which gives it a smoky, juicy, and soft taste.</p>
+
+            </div>
+            <div class="card-footer border-success " id="card-footer">50/-</div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 15rem;">
+            <img src="images/orange chicken.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+                <h4 class="card-title">Orange Chicken</h4>
+                <p class="card-text">a delicious Chinese-style dish made with crispy fried chicken pieces coated in a
+                    sweet and tangy orange-flavored sauce..!</p>
+            </div>
+            <div class="card-footer border-success " id="card-footer">50/-</div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 15rem;">
+            <img src="images/biriyani.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+                <h5 class="card-title">Biryani</h5>
+                <p class="card-text"> a famous and delicious rice dish made with spices, basmati rice, meat, or
+                    vegetables. create a rich aroma and taste...!</p>
+            </div>
+            <div class="card-footer border-success " id="card-footer">50/-</div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 15rem;">
+            <img src="images/shawarma.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+                <h5 class="card-title">Shawarma</h5>
+                <p class="card-text">Shawarma is a popular Middle Eastern street food made with thin slices of roasted
+                    meat.which makes it soft, juicy, and full of flavor.</p>
+            </div>
+            <div class="card-footer border-success " id="card-footer">50/-</div>
+        </div>
+        <div class="card border-success mb-3" style="max-width: 15rem;">
+            <img src="images/mandi normal.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+                <h4 class="card-title">Mandi</h4>
+                <p class="card-text">
+                <p>Mandi is a traditional Arabian rice dish that comes from Yemen.
+                    It is made with long-grain rice and tender meat, cooked with mild spices.</p>
+            </div>
+            <div class="card-footer border-success " id="card-footer">50/-</div>
+        </div>
+
+
+        <div class="card border-success mb-3" style="max-width: 15rem;">
+            <img src="images/chinese noodels.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+                <h4 class="card-title">noodles</h4>
+                <p class="card-text">long, thin strips of dough made from flour, water, and sometimes eggs.
+                    They are cooked by boiling and then mixed with vegetables</p>
+
+            </div>
+            <div class="card-footer border-success " id="card-footer">50/-</div>
+        </div>
+
+        <div class="card border-success mb-3" style="max-width: 15rem;">
+            <img src="images/veg biriyani.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+                <h5 class="card-title">Veg biriyani</h5>
+                <p class="card-text">It is a flavoured rice dish cooked with vegetables like carrot, beans, peas,
+                    potato, cauliflower, etc.It uses aromatic spices.</p>
+
+            </div>
+            <div class="card-footer border-success " id="card-footer">50/-</div>
+        </div>
+
+        <div class="card border-success mb-3" style="max-width: 15rem;">
+            <img src="images/dosa.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+                <h4 class="card-title"> Dosa </h4>
+                <p class="card-text"> Is a popular South Indian food made from a batter of rice and urad dal (black
+                    gram).
+                    It is cooked like a thin, crispy pancake on a hot pan.</p>
+            </div>
+            <div class="card-footer border-success " id="card-footer">50/-</div>
+        </div>
+
+        <div class="card border-success mb-3" style="max-width: 15rem;">
+            <img src="images/idli.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+                <h4 class="card-title">Idli</h4>
+                <p class="card-text">Idli is healthy because it is steamed Idli is easy to digest, so anyone can eat
+                    it.Idli gives good energy because it is made from rice and dal.</p>
+
+            </div>
+            <div class="card-footer border-success " id="card-footer">50/-</div>
+        </div>
+
+        <div class="card border-success mb-3" style="max-width: 15rem;">
+            <img src="images/panner.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-success">
+                <h4 class="card-title">Panner Masla</h4>
+                <p class="card-text">is a delicious North Indian dish made with paneer (Indian cottage cheese) cooked in
+                    a rich, creamy, and spicy tomato gravy </p>
+            </div>
+            <div class="card-footer border-success " id="card-footer">50/-</div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Footer -->
+          <footer id="footer" >
+        
+         <div class="container">
+                <div class="footer-content">
+
+                    <div>
+                        <h3>Chemmath Foods</h3>
+                        <p>Kerala, Kollam | Phone: 9605802081</p>
+                        <p>Email: chemmath@gmail.com</p>
+                        <p>Website: www.chemmath.com</p>
+                    </div>
+
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15760.104917128374!2d76.63019649430912!3d9.061371756018545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b060589cd4da7a5%3A0xe9c2b18b29068dd0!2sBharanikavu%2C%20Kerala!5e0!3m2!1sen!2sin!4v1762758305261!5m2!1sen!2sin"
+                        loading="lazy">
+                    </iframe>
+
+                </div>
+
+                <p class="text-center mt-4 mb-0">© 2025 Chemmath Foods. All rights reserved.</p>
+            
+        </footer>
+    
+
+
+        <!-- Bootstrap JS Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+
+        </script>
+</body>
+
+</html>
